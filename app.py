@@ -304,7 +304,7 @@ with overview:
         "Jumlah titik PCA",
         min_value=1_000,
         max_value=min(20_000, len(movies)),
-        value=min(10_000, len(movies)),
+        value=min(1_000, len(movies)),
         step=1_000,
     )
     sample = movies.sample(scatter_limit, random_state=int(random_state)).copy()
