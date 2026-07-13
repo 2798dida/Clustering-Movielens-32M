@@ -3,7 +3,7 @@
 ## Jalankan lokal
 
 ```powershell
-cd "C:\Users\didas\Downloads\movielens_streamlit"
+cd ""
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
